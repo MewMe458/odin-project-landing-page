@@ -1,0 +1,29 @@
+.body {
+    font-family: 'Roboto';
+}
+
+.header{
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 16px;
+    display: flex;
+}
+
+.header-logo {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 16px;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero-section {
+    background-color: #1f2937;
+}
