@@ -1,5 +1,15 @@
-.body {
-    font-family: 'Roboto';
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 5px;
+    font-size: 24px;
+    padding: 14px 40px;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
 }
 
 .header{
@@ -26,4 +36,38 @@
 
 .hero-section {
     background-color: #1f2937;
+    color: #f9faf8;
+    padding: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hs-texts-and-button {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.hs-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hs-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.placeholder-image {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
 }
