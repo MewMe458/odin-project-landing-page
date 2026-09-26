@@ -119,3 +119,31 @@ button {
     color: darkgray;
     font-weight: bold;
 }
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote-text {
+    width: 780px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    padding: 1px;
+}
+
+.quote-author {
+    width: 780px;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: 0;
+}
