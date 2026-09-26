@@ -71,3 +71,51 @@ button {
     align-items: center;
     padding: 150px;
 }
+
+.information-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info-content-parent {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.info-content {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-box {
+    width: 200px;
+    height: 200px;
+    border: 4px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 16px;
+}
+
+.info-text {
+    text-align: center;
+    font-size: 18px;
+    color: darkgray;
+    font-weight: bold;
+}
