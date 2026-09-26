@@ -179,3 +179,12 @@ button {
     font-size: 24px;
     font-weight: bold;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
